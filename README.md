@@ -14,7 +14,7 @@ conda env create -f resources/env.yml
 ```
 ./train.sh
 ```
-** Test using the following command:
+* Test using the following command:
 ```
 ./test.sh
 ```
