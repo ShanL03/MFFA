@@ -18,4 +18,4 @@ conda env create -f resources/env.yml
 ```
 ./test.sh
 ```
-You could download the checkpoint from here(https://www.google.com).
+You could download the checkpoint from [here](https://www.google.com).
