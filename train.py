@@ -29,9 +29,9 @@ flags.DEFINE_integer("crop_width", 192, "")
 flags.DEFINE_integer("temporal_len",4,"the number of consecutive frames to input")
 
 # flags.DEFINE_string("train_dataset", "../sinus_data/cadaver", "train dataset direction")
-flags.DEFINE_string("train_dataset", "../sinus_data/syn_cadaver", "train dataset direction")
-flags.DEFINE_string("frame_dataset", "../sinus_data/cadaver/frame_dataset", "frame dataset direction")
-flags.DEFINE_string("video_dir", "../sinus_data/cadaver/videos", "train dataset direction")
+flags.DEFINE_string("train_dataset", "", "train dataset direction")
+flags.DEFINE_string("frame_dataset", "", "frame dataset direction")
+flags.DEFINE_string("video_dir", "", "train dataset direction")
 flags.DEFINE_string("datasets", "cf1cf2", "")
 
 flags.DEFINE_string("img_pattern", "*.jpg", "Glob pattern of filename of input images [*]")
